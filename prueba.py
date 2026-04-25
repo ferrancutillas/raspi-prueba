@@ -59,3 +59,7 @@ while opcion != 3:
 
 for estudiante in lista:
     print(estudiante)
+
+for estudiante in lista:
+    estudiante.saludar()
+    estudiante.estudiar()
