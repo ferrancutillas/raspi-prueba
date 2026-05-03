@@ -1,0 +1,11 @@
+# El entorno virtual ("burbuja" de librerías)
+.venv/
+
+# Archivos temporales que genera Python al ejecutarse
+__pycache__/
+
+# Archivos invisibles de configuración de macOS
+.DS_Store
+
+# Configuración personal de Visual Studio Code
+.vscode/

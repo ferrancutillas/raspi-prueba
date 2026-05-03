@@ -1,1 +1,1 @@
-Repositorio orientado a aprender python
+Repositorio orientado a aprender sintaxis de python desde lo más basico
