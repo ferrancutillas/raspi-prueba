@@ -1,0 +1,21 @@
+Para tu carpeta `03_listas_y_colecciones`, aquí tienes los ejercicios de menos a más:
+
+### Nivel 1: Creación y Acceso
+1.  **Lista de la Compra:** Crea una lista con 5 elementos. Imprime el primero, el tercero y el último. (Pista: para el último puedes usar el índice `-1`).
+2.  **Modificación:** Crea una lista de 3 colores. Cambia el segundo color por "Violeta" e imprime la lista completa.
+3.  **Longitud:** Pide al usuario que introduzca 3 nombres, guárdalos en una lista y muestra cuántos elementos tiene usando `len()`.
+
+### Nivel 2: Métodos de Lista (El "ArrayList" style)
+4.  **Añadir y Eliminar:** Crea una lista vacía. Pide al usuario que añada 3 números uno a uno (usa `.append()`). Luego, borra el segundo número que metió y muestra el resultado.
+5.  **Orden alfabético:** Pide al usuario 5 ciudades. Guárdalas en una lista, ordénalas alfabéticamente (usa `.sort()`) y muéstralas.
+6.  **Suma y Promedio:** Crea una lista de notas (ej: `[7, 8, 10, 5]`). Calcula la suma total y la media aritmética. (Pista: usa `sum(lista)`).
+
+### Nivel 3: Listas + Bucles (Lo que verás mucho en DAW)
+7.  **Buscador:** Crea una lista con nombres de alumnos. Pide al usuario un nombre y dile si ese alumno está en la lista o no (usando el operador `in`).
+8.  **Filtrado de números:** Crea una lista con números del 1 al 20. Crea una **segunda lista vacía** y, usando un bucle, rellénala solo con los números que sean múltiplos de 3.
+9.  **Contador de vocales:** Pide una frase al usuario y cuenta cuántas veces aparece cada vocal usando una lista o simplemente recorriendo el string como si fuera una lista.
+
+### Nivel 4: Matrices (Listas de listas)
+En Java harías `int[][] matriz = new int[3][3];`. En Python es `matriz = [[1,2], [3,4]]`.
+
+10. **El Tablero:** Crea una matriz de 3x3 que represente un tablero de "Tres en raya" (puedes llenarlo con ceros). Cambia el valor del centro por una "X" e imprime la matriz fila por fila para que se vea cuadrada.

@@ -1,0 +1,43 @@
+Para organizar esto, crea una carpeta llamada:  
+`02_bucles_y_repeticion`
+
+Aquí tienes la progresión de ejercicios para que domines la sintaxis y la lógica de repetición:
+
+---
+
+### Nivel 1: Bucles `for` y la función `range()`
+En Python no hacemos `for(int i=0; i<10; i++)`. Usamos `range()`.
+
+1.  **Contador simple:** Muestra los números del 1 al 20 uno por uno.
+2.  **Cuenta atrás:** Muestra los números del 10 al 1 y, al final, imprime "¡Ignición!". (Pista: busca cómo usar el tercer parámetro de `range()`).
+3.  **Suma acumulada:** Pide al usuario un número $N$ y calcula la suma de todos los números desde 1 hasta $N$. (En Java usarías un acumulador `suma += i`).
+
+### Nivel 2: Bucles con lógica filtrada
+Mezclamos los `for` con los `if` que ya conoces.
+
+4.  **Solo Pares:** Pide un número de inicio y uno de fin. Muestra solo los números pares que hay en ese rango.
+5.  **FizzBuzz (El clásico de entrevistas):** Recorre los números del 1 al 30:
+    *   Si el número es divisible por 3, imprime "Fizz".
+    *   Si es divisible por 5, imprime "Buzz".
+    *   Si es divisible por ambos (3 y 5), imprime "FizzBuzz".
+    *   Si no, imprime el número.
+
+### Nivel 3: El bucle `while` (Control por condición)
+Útil cuando no sabes cuántas veces se va a repetir algo.
+
+6.  **La Palabra Secreta:** Pide al usuario que adivine una palabra (ej. "python"). El programa no parará de preguntar hasta que el usuario la acierte.
+7.  **Cajero con intentos:** Como el ejercicio del cajero que hicimos, pero esta vez el PIN tiene un máximo de **3 intentos**. Si falla los 3, el programa dice "Tarjeta bloqueada" y termina.
+8.  **Calculadora continua:** Crea una calculadora que pida dos números y los sume. Al terminar, debe preguntar: "¿Quieres hacer otra suma? (s/n)". Si el usuario pulsa 's', vuelve a empezar; si no, sale.
+
+
+
+### Nivel 4: Bucles Anidados (Nested Loops)
+Aquí es donde la indentación de Python se pone a prueba.
+
+9.  **Tablas de Multiplicar:** Genera las tablas de multiplicar del 1 al 10. (Un `for` dentro de otro `for`).
+10. **El Triángulo de Asteriscos:** Pide un número de filas y dibuja algo así (si pide 4):
+    ```text
+    *
+    **
+    ***
+    ****
